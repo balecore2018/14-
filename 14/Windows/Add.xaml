@@ -7,24 +7,24 @@
         mc:Ignorable="d"
         Title="Добавить паспорт" Height="565" Width="310" MinHeight="565" MinWidth="310">
     <Grid>
-        <Label Content="#Имя" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="290"/>
-        <TextBox x:Name="Name" HorizontalAlignment="Center" Margin="0,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" Height="23"/>
-        <Label Content="#Фамилия" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" Width="290"/>
-        <TextBox x:Name="Firstname" HorizontalAlignment="Center" Margin="0,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" Height="23"/>
-        <Label Content="#Отчество" HorizontalAlignment="Center" Margin="0,121,0,0" VerticalAlignment="Top" Width="290"/>
-        <TextBox x:Name="Lastname" HorizontalAlignment="Center" Margin="0,147,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" Height="23"/>
-        <Label Content="#Паспорт выдан" HorizontalAlignment="Center" Margin="0,175,0,0" VerticalAlignment="Top" Width="290"/>
-        <TextBox x:Name="Issued" HorizontalAlignment="Center" Margin="0,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" Height="23"/>
-        <Label Content="#Дата выдачи" HorizontalAlignment="Center" Margin="0,226,0,0" VerticalAlignment="Top" Width="290"/>
-        <TextBox x:Name="DateOfIssued" HorizontalAlignment="Center" Margin="0,252,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" Height="23"/>
-        <Label Content="#Код подразделения" HorizontalAlignment="Center" Margin="0,279,0,0" VerticalAlignment="Top" Width="290"/>
-        <TextBox x:Name="DepatmentCode" HorizontalAlignment="Center" Margin="0,305,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" Height="23"/>
-        <Label Content="#Серия и номер" HorizontalAlignment="Center" Margin="0,331,0,0" VerticalAlignment="Top" Width="290"/>
-        <TextBox x:Name="SerialAndNumber" HorizontalAlignment="Center" Margin="0,357,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" Height="23"/>
-        <Label Content="#Дата рождения" HorizontalAlignment="Center" Margin="0,385,0,0" VerticalAlignment="Top" Width="290"/>
-        <TextBox x:Name="DateOfBirth" HorizontalAlignment="Center" Margin="0,411,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" Height="23"/>
-        <Label Content="#Место рождения" HorizontalAlignment="Center" Margin="0,438,0,0" VerticalAlignment="Top" Width="290"/>
-        <TextBox x:Name="PlaceOfBirth" HorizontalAlignment="Center" Margin="0,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290" Height="23"/>
-        <Button x:Name="BthAdd" Click="AddPassport" Content="Добавить" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75" Height="25"/>
+        <Label Content="#Имя" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <TextBox x:Name="Name" Margin="10,36,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
+        <Label Content="#Фамилия" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <TextBox x:Name="Firstname" Margin="10,90,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
+        <Label Content="#Отчество" HorizontalAlignment="Center" Margin="0,112,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <TextBox x:Name="Lastname" Margin="10,138,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
+        <Label Content="#Паспорт выдан" HorizontalAlignment="Center" Margin="0,166,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <TextBox x:Name="Issued" Margin="10,194,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
+        <Label Content="#Дата выдачи" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <TextBox x:Name="DateOfIssued" Margin="10,243,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
+        <Label Content="#Код подразделения" HorizontalAlignment="Center" Margin="0,270,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <TextBox x:Name="DepatmentCode" Margin="10,296,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
+        <Label Content="#Серия и номер" HorizontalAlignment="Center" Margin="0,322,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <TextBox x:Name="SerialAndNumber" Margin="10,348,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
+        <Label Content="#Дата рождения" HorizontalAlignment="Center" Margin="0,376,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <TextBox x:Name="DateOfBirth" Margin="10,407,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
+        <Label Content="#Место рождения" HorizontalAlignment="Center" Margin="0,432,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <TextBox x:Name="PlaceOfBirth" Margin="10,463,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
+        <Button x:Name="BthAdd" Click="AddPassport" Content="Добавить" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75" Height="25" Grid.Row="1"/>
     </Grid>
 </Window>

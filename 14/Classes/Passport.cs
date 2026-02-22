@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _14.Classes
 {
-    internal class Passport
+    public class Passport
     {
         public string Name {  get; set; }
         public string Firstname { get; set; }
