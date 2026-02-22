@@ -15,13 +15,13 @@
         <TextBox x:Name="Lastname" Margin="10,138,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
         <Label Content="#Паспорт выдан" HorizontalAlignment="Center" Margin="0,166,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
         <TextBox x:Name="Issued" Margin="10,194,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
-        <Label Content="#Дата выдачи" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <Label Content="#Дата выдачи ДД.ММ.ГГГГ" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
         <TextBox x:Name="DateOfIssued" Margin="10,243,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
-        <Label Content="#Код подразделения" HorizontalAlignment="Center" Margin="0,270,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <Label Content="#Код подразделения 123-456" HorizontalAlignment="Center" Margin="0,270,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
         <TextBox x:Name="DepatmentCode" Margin="10,296,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
-        <Label Content="#Серия и номер" HorizontalAlignment="Center" Margin="0,322,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <Label Content="#Серия и номер 1234 123456" HorizontalAlignment="Center" Margin="0,322,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
         <TextBox x:Name="SerialAndNumber" Margin="10,348,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
-        <Label Content="#Дата рождения" HorizontalAlignment="Center" Margin="0,376,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
+        <Label Content="#Дата рождения ДД.ММ.ГГГГ" HorizontalAlignment="Center" Margin="0,376,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
         <TextBox x:Name="DateOfBirth" Margin="10,407,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>
         <Label Content="#Место рождения" HorizontalAlignment="Center" Margin="0,432,0,0" VerticalAlignment="Top" Width="290" Height="26"/>
         <TextBox x:Name="PlaceOfBirth" Margin="10,463,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23"/>

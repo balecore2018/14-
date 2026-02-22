@@ -58,6 +58,44 @@ namespace _14.Windows
                 return;
             }
 
+
+
+
+            if (String.IsNullOrEmpty(Issued.Text) || !Classes.Common.CheckRegex.Match("^[А-Яа-яЁё]*$", Issued.Text))
+            {
+                MessageBox.Show("Не правильно указано кем выдан паспорт");
+                return;
+            }
+            if (String.IsNullOrEmpty(DateOfIssued.Text) || !Classes.Common.CheckRegex.Match("^(0[1-9]|[12][0-9]|3[01])\\.(0[1-9]|1[012])\\.\\d{4}$", DateOfIssued.Text))
+            {
+                MessageBox.Show("Не правильно указана дата выдачи.");
+                return;
+            }
+            if (String.IsNullOrEmpty(DepatmentCode.Text) || !Classes.Common.CheckRegex.Match("^\\d{3}-\\d{3}$", DepatmentCode.Text))
+            {
+                MessageBox.Show("Не правильно указан код.");
+                return;
+            }
+            if (String.IsNullOrEmpty(SerialAndNumber.Text) || !Classes.Common.CheckRegex.Match("^\\d{4} \\d{6}$", SerialAndNumber.Text))
+            {
+                MessageBox.Show("Не правильно указана серия и номер.");
+                return;
+            }
+            if (String.IsNullOrEmpty(DateOfBirth.Text) || !Classes.Common.CheckRegex.Match("^(0[1-9]|[12][0-9]|3[01])\\.(0[1-9]|1[012])\\.\\d{4}$$", DateOfBirth.Text))
+            {
+                MessageBox.Show("Не правильно указана дата рождения.");
+                return;
+            }
+            if (String.IsNullOrEmpty(PlaceOfBirth.Text) || !Classes.Common.CheckRegex.Match("^[А-Яа-яЁё0-9\\-\\s\\.\\,]+$", PlaceOfBirth.Text))
+            {
+                MessageBox.Show("Не правильно указано место рождения.");
+                return;
+            }
+
+
+
+
+
             if (EditPassport == null) { 
                 EditPassport = new Classes.Passport();
                 MainWindow.init.Passports.Add(EditPassport);
