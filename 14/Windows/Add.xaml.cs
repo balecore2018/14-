@@ -71,7 +71,8 @@ namespace _14.Windows
             EditPassport.SerialAndNumber = SerialAndNumber.Text;
             EditPassport.DateOfBirth = DateOfBirth.Text;
             EditPassport.PlaceOfBirth = PlaceOfBirth.Text;
-            MainWindow.init.LoadPassports();
+
+            MainWindow.init.LoadPassport();
             this.Close();
         }
     }

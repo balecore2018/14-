@@ -35,17 +35,29 @@ namespace _14
 
         private void Update(object sender, RoutedEventArgs e)
         {
-
+            if (lv_passport.SelectedIndex > -1)
+                new Windows.Add(lv_passport.SelectedItem as Classes.Passport).ShowDialog();
+            else
+                MessageBox.Show("Выберите паспорт");
         }
 
         private void Delete(object sender, RoutedEventArgs e)
         {
-
+            if (lv_passport.SelectedIndex > -1) { 
+                Passports.Remove(lv_passport.SelectedItem as Classes.Passport);
+            LoadPassport();
+            }
+            else
+                MessageBox.Show("Выберите паспорт");
         }
 
-        public void LoadPassports()
+        public void LoadPassport()
         {
-
+            lv_passport.Items.Clear();
+            foreach (Classes.Passport Passport in Passports)
+            {
+                lv_passport.Items.Add(Passport);
+            }
         }
     }
 }
